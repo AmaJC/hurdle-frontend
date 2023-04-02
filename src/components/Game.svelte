@@ -76,7 +76,7 @@
 			board.shake(game.guesses);
 		} else {
 			// If it's not an error, then the guess was valid. Increment game.guesses
-			// so the Tuffle frontend will flip the colors of the guess.
+			// so the Hurdle frontend will flip the colors of the guess.
 			++game.guesses;
 			if ($server_response["gameStatus"] == "win") {
 				win();
@@ -102,8 +102,8 @@
 	}
 
 	function lose() {
-		// Display the tuffle if the player fails to guess it.
-		toaster.pop("The tuffle was: " + $server_response["answer"], 2);
+		// Display the hurdle if the player fails to guess it.
+		toaster.pop("The hurdle was: " + $server_response["answer"], 2);
 		game.active = false;
 		setTimeout(setShowStatsTrue, delay);
 		++stats.guesses.fail;

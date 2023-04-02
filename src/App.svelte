@@ -84,7 +84,7 @@
 	}
 	let toaster: Toaster;
 
-	document.title = "Tuffle | CPSC121 Game";
+	document.title = "Hurdle | CPSC121 Game";
 </script>
 
 <Toaster bind:this={toaster} />

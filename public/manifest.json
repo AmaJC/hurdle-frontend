@@ -1,9 +1,9 @@
 {
-	"short_name": "Tuffle",
-	"name": "Tuffle",
+	"short_name": "Hurdle",
+	"name": "Hurdle",
 	"background_color": "#6aaa64",
 	"theme_color": "#6aaa64",
-	"description": "Tuffle | Wordle with a C++ backend.",
+	"description": "Hurdle | Wordle with a C++ backend.",
 	"display": "standalone",
 	"icons": [
 		{

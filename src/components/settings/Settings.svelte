@@ -17,7 +17,7 @@
 	}
 </script>
 
-<!-- To add more features to Tuffle, you can add more settings below! -->
+<!-- To add more features to Hurdle, you can add more settings below! -->
 <!-- <svelte:body class:light={!$settings.dark} /> -->
 <div class="outer">
 	<div class="settings-top">

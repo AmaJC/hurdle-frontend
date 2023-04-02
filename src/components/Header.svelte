@@ -19,7 +19,7 @@
 		</GameIcon>
 	</div>
 	<h1>
-		tuffle
+		hurdle
 	</h1>
 	<div class="icons">
 		{#if showStats}

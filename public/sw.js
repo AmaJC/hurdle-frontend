@@ -1,5 +1,5 @@
 // Increase the v number when the app is updated
-const cacheName = "Tuffle-v1.0";
+const cacheName = "Hurdle-v1.0";
 
 const assetsToCache = [
 	"./",

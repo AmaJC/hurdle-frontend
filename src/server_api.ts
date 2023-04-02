@@ -27,14 +27,14 @@ async function fetchAPI(path: string): Promise<ServerResponse> {
 
   const resp = await fetch(backendURL + path, {
     method: "GET",
-    headers: { "X-Tuffle-Game-ID": gameID },
+    headers: { "X-Hurdle-Game-ID": gameID },
   });
   if (!resp.ok) {
     throw new Error(`fetchAPI: ${resp.status} ${resp.statusText}`);
   }
 
-  // Update the Tuffle game ID from the server.
-  const newGameID = resp.headers.get("X-Tuffle-Game-ID") || "";
+  // Update the Hurdle game ID from the server.
+  const newGameID = resp.headers.get("X-Hurdle-Game-ID") || "";
   if (gameID != newGameID) {
     gameID = newGameID;
 
