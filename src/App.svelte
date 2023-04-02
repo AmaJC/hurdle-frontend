@@ -52,7 +52,6 @@
 			if (!temp || modeData.modes[m].seed - temp.time >= modeData.modes[m].unit) {
 				state = createNewGame(m);
 			} else {
-				// This is for backwards compatibility, can be removed in a day
 				if (!temp.wordNumber) {
 					temp.wordNumber = getWordNumber(m);
 				}
